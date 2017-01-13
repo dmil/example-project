@@ -1,0 +1,35 @@
+/*
+  prefix everything with #chart1 so that it doesn't conflict
+  with chart2.css, chart3.css etc.
+*/
+
+#chart1 .hover-text {
+  font: 10px sans-serif;
+}
+
+#chart1 .axis path,
+#chart1 .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#chart1 .axis--x path {
+  display: none;
+}
+
+#chart1 .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+#chart1 .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#chart1 .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
