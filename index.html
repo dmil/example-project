@@ -32,7 +32,7 @@
       .size([width, width])
       .padding(1.5);
 
-  d3.csv("flare.csv", function(d) {
+  d3.csv("data.csv", function(d) {
     d.value = +d.value;
     if (d.value) return d;
   }, function(error, classes) {
