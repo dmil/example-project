@@ -1,6 +1,6 @@
 # THIS HAS BEEN CHANGED, SEE LINKS BELOW
 
-Please see the following examples:
+I've deleted all the files and split this out into back end and front end. There are two different example front ends.
 
 ## BACK END EXAMPLES
 Back End Example  https://github.com/dmil/example-backend
